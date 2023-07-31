@@ -9,18 +9,27 @@
   <title>Frontend Mentor | Interactive comments section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <script src="script.js"></script>
 
   <!-- Pull dynamic content from the data.json file -->
+  <div id="data-container"></div>
+
+  <form id="comment-form">
+    <img src="" class="user-image" alt="User Image" id="user-image">
+    <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Add a comment"></textarea>
+    <button type="submit">Submit</button>
+  </form>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Michael Sabzevari</a>.
   </div>
 </body>
 </html>

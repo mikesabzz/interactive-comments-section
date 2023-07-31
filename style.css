@@ -1,0 +1,82 @@
+body {
+    background-color: #d9d9ff;
+}
+.section {
+    /* width: 300px; */
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .section p {
+    margin: 5px 0;
+  }
+
+  .comments-section {
+    /* width: 300px; */
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .comments-section p {
+    margin: 5px 0;
+  }
+
+.reply {
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .replies-section {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .admin-text {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+
+  #comment-form {
+    display: flex; /* Use flexbox to align the elements horizontally */
+    align-items: center; /* Align elements vertically center */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style for the comment input */
+  #comment {
+    flex: 1; /* Take up remaining space in the flex container */
+    resize: none; /* Disable textarea resize */
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* Style for the submit button */
+  button[type="submit"] {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style for the submit button on hover */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
